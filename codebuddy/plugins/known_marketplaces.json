@@ -1,1 +1,15 @@
-{}
+{
+  "codebuddy-plugins-official": {
+    "type": "git",
+    "source": {
+      "source": "git",
+      "path": "https://cnb.cool/codebuddy/marketplace",
+      "url": "https://cnb.cool/codebuddy/marketplace"
+    },
+    "installLocation": "/root/.codebuddy/plugins/marketplaces/codebuddy-plugins-official",
+    "description": "Marketplace from https://cnb.cool/codebuddy/marketplace",
+    "lastUpdated": "2026-02-26T04:50:54.669Z",
+    "autoUpdate": true,
+    "isBuiltIn": true
+  }
+}

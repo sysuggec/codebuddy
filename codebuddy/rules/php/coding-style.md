@@ -47,7 +47,7 @@ final class User
 
 ## Project Constraints & Conventions
 
-1. **Versions**: PHP 7.4, MySQL 5.7
+1. **Versions**: PHP 7.4, MySQL 5.7 ，开发环境使用sqlite代替
 2. **HTTP Methods**: GET + POST (default POST content type is `application/x-www-form-urlencoded` unless specified)
 3. **Entry/Exit**: unified at `action/index.php`
 4. **Routing**: `?action=模块.方法` → `action/模块Control.php` → `模块Control::方法($request)`

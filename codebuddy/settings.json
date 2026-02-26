@@ -1,0 +1,26 @@
+{
+    "alwaysThinkingEnabled": true,
+    "maxThinkingTokens": 10000,
+    "modelPreference": "GLM-5.0",
+    "planModeDefault": false,
+    "agentDefaults": {
+      "pairProgramming": true,
+      "useCodeExplorer": true
+    },
+    "gitWorkflow": {
+      "disableAttribution": true,
+      "commitTypes": ["feat", "fix", "refactor", "docs", "test", "chore", "perf", "ci"],
+      "requireFullHistory": true,
+      "requireDiffAgainstBase": true,
+      "requirePrSummary": true,
+      "requireTestPlan": true,
+      "requirePushWithUpstream": true
+    },
+    "build": {
+      "maxRetries": 2
+    },
+    "ui": {
+      "verboseThinkingOutput": false
+    }
+  }
+  

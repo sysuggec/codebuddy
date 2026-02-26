@@ -1,5 +1,7 @@
 # Codebuddy
 codebuddy/local_storage/
-codebuddy/logs/
-codebuddy/plugins/
+codebuddy/logs/plugins/
 codebuddy/mcp.json
+
+# Logs
+*.log

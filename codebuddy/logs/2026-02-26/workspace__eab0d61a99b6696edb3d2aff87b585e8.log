@@ -1,0 +1,71 @@
+Workspace Path: /workspace
+[2/26/2026, 4:05:19 AM.946] [Error] Failed to read settings file for scope user: ENOENT
+[2/26/2026, 4:05:19 AM.947] [Error] Failed to read settings file for scope user: ENOENT
+[2/26/2026, 4:05:19 AM.947] [Error] Failed to read settings file for scope user: ENOENT
+[2/26/2026, 4:05:19 AM.948] [Error] Failed to read settings file for scope user: ENOENT
+[2/26/2026, 4:05:19 AM.948] [Info] [CloudProductManager]  fetch cloud product start
+[2/26/2026, 4:05:19 AM.948] [Info] [GitInfoCollector]  CODEBUDDY_GIT_REPO_SCAN_DISABLED undefined
+[2/26/2026, 4:05:19 AM.948] [Info] [GitInfoCollector]  Starting to collect Git info...
+[2/26/2026, 4:05:19 AM.948] [Info] [GitInfoCollector]  Starting directory scan: /workspace
+[2/26/2026, 4:05:19 AM.948] [Info] [GitInfoCollector]  Scanning parent directories...
+[2/26/2026, 4:05:19 AM.949] [Info] [GitInfoCollector]  Scanning child directories...
+[2/26/2026, 4:05:19 AM.949] [Info] [GitInfoCollector]  Found Git repository: /workspace
+[2/26/2026, 4:05:19 AM.949] [Info] [GitInfoCollector]  Extracted Git info: https://github.com/sysuggec/codebuddy.git (branch: main)
+[2/26/2026, 4:05:19 AM.949] [Info] [GitInfoCollector]  Scan complete: found 1 Git repositories in 1ms
+[2/26/2026, 4:05:19 AM.949] [Info] [GitInfoCollector]  Workspace path: /workspace
+[2/26/2026, 4:05:19 AM.949] [Info] [GitInfoCollector]  Found 1 Git repositories
+[2/26/2026, 4:05:19 AM.949] [Info] [GitInfoCollector]  First Git repository path: /workspace
+[2/26/2026, 4:05:19 AM.949] [Info] [GitInfoCollector]  Detected standard single Git project
+[2/26/2026, 4:05:19 AM.949] [Info] [GitInfoCollector]  Scan stats: scanned 4 directories, found 1 repositories, elapsed 1ms
+[2/26/2026, 4:05:19 AM.949] [Info] [GitInfoCollector]  Git info collection complete: found 1 repositories, active: https://github.com/sysuggec/codebuddy.git
+[2/26/2026, 4:05:19 AM.950] [Error] Failed to read settings file for scope user: ENOENT
+[2/26/2026, 4:05:20 AM.466] [Info] [CloudProductManager]  fetch cloud product finish, result empty 0
+[2/26/2026, 4:05:20 AM.466] [Info] [Agent变更] 原有Agents数量: 10, 内容: [{"name":"cli","models":["glm-4.7","glm-4.6","glm-4.6v","deepseek-v3-2-volc","deepseek-v3.1","deepseek-v3-0324","kimi-k2.5","kimi-k2-thinking"]},{"name":"general-purpose"},{"name":"compact"},{"name":"contentAnalyzer"},{"name":"terminalTitleGenerator"},{"name":"summaryGenerator"},{"name":"agentInstructions"},{"name":"statusline-setup"},{"name":"Explore"},{"name":"Plan"}]
+[2/26/2026, 4:05:20 AM.466] [Info] [Agent变更] 云端Agents数量: 0, 内容: undefined
+[2/26/2026, 4:05:20 AM.466] [Info] [Model变更] 原有Models数量: 11, 内容: ["Default","DeepSeek-V3.1-Terminus","DeepSeek-V3.2","GLM-4.7","GLM-4.6V","GLM-4.6","Hunyuan-Turbos","DeepSeek-V3","Kimi-K2-Thinking","Kimi-K2.5","Hunyuan Image V3"]
+[2/26/2026, 4:05:20 AM.466] [Info] [Model变更] 云端Models数量: 0, 内容: []
+[2/26/2026, 4:05:20 AM.467] [Error] Failed to read settings file for scope user: ENOENT
+[2/26/2026, 4:05:20 AM.468] [Error] Failed to read settings file for scope user: ENOENT
+[2/26/2026, 4:05:20 AM.468] [Info] [ApiKeyHelperProductProvider]  Fetching new API Key from helper script due to cache expiration
+[2/26/2026, 4:05:20 AM.468] [Error] Failed to read settings file for scope user: ENOENT
+[2/26/2026, 4:05:20 AM.468] [Info] [ModelsProductProvider] enterpriseId: undefined, endpoint: http://auth.proxy/codebuddy
+[2/26/2026, 4:05:20 AM.468] [Warning] [ModelsProductProvider] enterpriseId is missing, skipping models API call
+[2/26/2026, 4:13:19 AM.966] [Error] Failed to read settings file for scope user: ENOENT
+[2/26/2026, 4:13:19 AM.967] [Error] Failed to read settings file for scope user: ENOENT
+[2/26/2026, 4:13:19 AM.967] [Error] Failed to read settings file for scope user: ENOENT
+[2/26/2026, 4:13:19 AM.967] [Error] Failed to read settings file for scope user: ENOENT
+[2/26/2026, 4:13:19 AM.968] [Error] Failed to read settings file for scope user: ENOENT
+[2/26/2026, 4:13:19 AM.968] [Error] Failed to read settings file for scope user: ENOENT
+[2/26/2026, 4:13:19 AM.968] [Info] [ApiKeyHelperProductProvider]  Fetching new API Key from helper script due to cache expiration
+[2/26/2026, 4:13:19 AM.968] [Error] Failed to read settings file for scope user: ENOENT
+[2/26/2026, 4:21:19 AM.987] [Error] Failed to read settings file for scope user: ENOENT
+[2/26/2026, 4:21:19 AM.987] [Error] Failed to read settings file for scope user: ENOENT
+[2/26/2026, 4:21:19 AM.987] [Error] Failed to read settings file for scope user: ENOENT
+[2/26/2026, 4:21:19 AM.987] [Error] Failed to read settings file for scope user: ENOENT
+[2/26/2026, 4:21:19 AM.988] [Info] [CloudProductManager]  fetch cloud product start
+[2/26/2026, 4:21:19 AM.988] [Info] [GitInfoCollector]  CODEBUDDY_GIT_REPO_SCAN_DISABLED undefined
+[2/26/2026, 4:21:19 AM.988] [Info] [GitInfoCollector]  Starting to collect Git info...
+[2/26/2026, 4:21:19 AM.988] [Info] [GitInfoCollector]  Starting directory scan: /workspace
+[2/26/2026, 4:21:19 AM.988] [Info] [GitInfoCollector]  Scanning parent directories...
+[2/26/2026, 4:21:19 AM.988] [Info] [GitInfoCollector]  Scanning child directories...
+[2/26/2026, 4:21:19 AM.988] [Info] [GitInfoCollector]  Found Git repository: /workspace
+[2/26/2026, 4:21:19 AM.988] [Info] [GitInfoCollector]  Extracted Git info: https://github.com/sysuggec/codebuddy.git (branch: main)
+[2/26/2026, 4:21:19 AM.989] [Info] [GitInfoCollector]  Scan complete: found 1 Git repositories in 1ms
+[2/26/2026, 4:21:19 AM.989] [Info] [GitInfoCollector]  Workspace path: /workspace
+[2/26/2026, 4:21:19 AM.989] [Info] [GitInfoCollector]  Found 1 Git repositories
+[2/26/2026, 4:21:19 AM.989] [Info] [GitInfoCollector]  First Git repository path: /workspace
+[2/26/2026, 4:21:19 AM.989] [Info] [GitInfoCollector]  Detected standard single Git project
+[2/26/2026, 4:21:19 AM.989] [Info] [GitInfoCollector]  Scan stats: scanned 5 directories, found 1 repositories, elapsed 1ms
+[2/26/2026, 4:21:19 AM.989] [Info] [GitInfoCollector]  Git info collection complete: found 1 repositories, active: https://github.com/sysuggec/codebuddy.git
+[2/26/2026, 4:21:19 AM.989] [Error] Failed to read settings file for scope user: ENOENT
+[2/26/2026, 4:21:20 AM.103] [Info] [CloudProductManager]  fetch cloud product finish, result empty 0
+[2/26/2026, 4:21:20 AM.103] [Info] [Agent变更] 原有Agents数量: 10, 内容: [{"name":"cli","models":["glm-4.7","glm-4.6","glm-4.6v","deepseek-v3-2-volc","deepseek-v3.1","deepseek-v3-0324","kimi-k2.5","kimi-k2-thinking"]},{"name":"general-purpose"},{"name":"compact"},{"name":"contentAnalyzer"},{"name":"terminalTitleGenerator"},{"name":"summaryGenerator"},{"name":"agentInstructions"},{"name":"statusline-setup"},{"name":"Explore"},{"name":"Plan"}]
+[2/26/2026, 4:21:20 AM.103] [Info] [Agent变更] 云端Agents数量: 0, 内容: undefined
+[2/26/2026, 4:21:20 AM.103] [Info] [Model变更] 原有Models数量: 11, 内容: ["Default","DeepSeek-V3.1-Terminus","DeepSeek-V3.2","GLM-4.7","GLM-4.6V","GLM-4.6","Hunyuan-Turbos","DeepSeek-V3","Kimi-K2-Thinking","Kimi-K2.5","Hunyuan Image V3"]
+[2/26/2026, 4:21:20 AM.103] [Info] [Model变更] 云端Models数量: 0, 内容: []
+[2/26/2026, 4:21:20 AM.104] [Error] Failed to read settings file for scope user: ENOENT
+[2/26/2026, 4:21:20 AM.105] [Error] Failed to read settings file for scope user: ENOENT
+[2/26/2026, 4:21:20 AM.105] [Info] [ApiKeyHelperProductProvider]  Fetching new API Key from helper script due to cache expiration
+[2/26/2026, 4:21:20 AM.105] [Error] Failed to read settings file for scope user: ENOENT
+[2/26/2026, 4:21:20 AM.106] [Info] [ModelsProductProvider] enterpriseId: undefined, endpoint: http://auth.proxy/codebuddy
+[2/26/2026, 4:21:20 AM.106] [Warning] [ModelsProductProvider] enterpriseId is missing, skipping models API call

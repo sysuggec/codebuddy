@@ -1,26 +1,25 @@
+# PHP 7.4 编码风格
 
-# PHP 7.4 Coding Style
+> 本文件扩展自 [../common/coding-style.md](../common/coding-style.md)，补充 PHP 7.4 特定内容。
 
-> This file extends [~/.codebuddy/rules/common/coding-style.md](~/.codebuddy/rules/common/coding-style.md) with PHP 7.4 specific content.
+## 标准
 
-## Standards
+- 目标 **PHP 7.4**，仅使用该版本支持的语言特性
+- 使用 **strict types**：在 `<?php` 后添加 `declare(strict_types=1);`
+- 尽可能为参数和返回值添加 **类型声明**（PHP 7.4 支持范围内）
+- 遵循 **PSR-12**（PHP 7.4 兼容）
 
-- Target **PHP 7.4** language features and constraints
-- Use **strict types**: add `declare(strict_types=1);` after `<?php`
-- Prefer **type hints** for parameters and return types where supported in PHP 7.4
-- Follow **PSR-12** (PHP 7.4 compatible); project-specific exceptions are listed below
+## 语言特性 (PHP 7.4)
 
-## Language Features (PHP 7.4)
+- 使用 **typed properties** 声明类属性
+- 使用 **短数组语法**：`[]`
+- 使用 **null 合并**及**null 合并赋值**运算符（`??`、`??=`）
+- 短回调使用 **箭头函数**：`fn($x) => $x * 2`
+- 禁止使用 PHP 8+ 特性（如 union types、match、构造函数属性提升）
 
-- Use **typed properties** for class fields
-- Use **short array syntax**: `[]`
-- Use **null coalescing** and **null coalescing assignment** (`??`, `??=`)
-- Use **arrow functions** for short callbacks: `fn($x) => $x * 2`
-- Avoid PHP 8+ features (e.g., union types, match, constructor property promotion)
+## 不可变性
 
-## Immutability
-
-Prefer immutable value objects:
+优先使用不可变值对象。PHP 7.4 没有 `readonly`，通过 `private` 属性 + getter 实现：
 
 ```php
 <?php
@@ -29,23 +28,33 @@ declare(strict_types=1);
 
 final class User
 {
-    public string $name;
-    public string $email;
+    private string $name;
+    private string $email;
 
     public function __construct(string $name, string $email)
     {
         $this->name = $name;
         $this->email = $email;
     }
+
+    public function getName(): string
+    {
+        return $this->name;
+    }
+
+    public function getEmail(): string
+    {
+        return $this->email;
+    }
 }
 ```
 
-## Formatting
+## 格式化工具
 
-- **PHP-CS-Fixer** for code formatting (use `.php-cs-fixer.php` if present)
-- **PHP_CodeSniffer (PHPCS)** for standards and linting (use `phpcs.xml`/`phpcs.xml.dist` if present)
-- **PHPStan** for static analysis (use `phpstan.neon`/`phpstan.neon.dist` if present; level per project)
+- **PHP-CS-Fixer**：代码格式化（优先使用项目中的 `.php-cs-fixer.php`）
+- **PHP_CodeSniffer (PHPCS)**：规范检查（优先使用项目中的 `phpcs.xml` / `phpcs.xml.dist`）
+- **PHPStan**：静态分析（优先使用项目中的 `phpstan.neon` / `phpstan.neon.dist`；级别由项目决定）
 
-## Project-Specific Conventions
+## 项目专属约定
 
-> 说明：项目约束/架构约定已迁移至 [project-conventions.md](project-conventions.md)。在本项目中使用本规则时，**需同时遵循该文件**。
+> 项目约束/架构约定详见 [project-conventions.md](project-conventions.md)。在本项目中使用本规则时，**需同时遵循该文件**。
